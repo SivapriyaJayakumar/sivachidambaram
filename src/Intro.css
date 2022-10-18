@@ -1,0 +1,294 @@
+body{
+    background-color: #f5f5f5;
+    max-width: 1020px;
+    margin: auto;
+  }
+  
+  .totalwrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 120px;
+    margin-bottom:160px;
+    animation: slideUp 1s ease-out;
+  }
+  .namediv{
+    font-family: 'General Sans Regular';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color:#777777;
+    margin-bottom: 16px;
+  }
+  .IntroWrapper{
+    min-width: 60%;
+    max-width: 60%;
+  }
+  .Introdiv{
+    font-family: 'General Sans Regular';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color:#777777;
+  }
+  .introbreak{
+    margin-top: 36px;
+  }
+  #plum{
+    font-family: 'General Sans Semibold';
+    color:#FF601A;
+  }
+  #blocktext{
+    font-family: 'General Sans Semibold';
+    color:#222222;
+  }
+  .profile{
+    min-width: 30%;
+  margin-left: 10%;
+  position: relative;
+  }
+  #siva-profile{
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    width:100%;
+    height:auto;
+  }
+  .profile:hover #siva-profile{
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+  .profile:hover #sparkle{
+    position: absolute;
+    left:-80px;
+    top:-74px;
+    transition: all 800ms ease-out;
+  }
+  .profile:hover #star{
+    position: absolute;
+    right: -48px;
+    bottom:190px;
+    transition: all 800ms ease-out;
+  }
+  .profile:hover #arrow{
+    position: absolute;
+    right: 234px;
+    bottom:200px;
+    transition: all 800ms ease-out;
+  }
+  #sparkle{
+    position: absolute;
+    left:-80px;
+    top:-64px;
+  }
+  #star{
+    position: absolute;
+    right: -48px;
+    bottom:200px;
+  }
+  #arrow{
+    position: absolute;
+    right: 224px;
+    bottom:200px;
+  }
+  .buttonwrap{
+    margin-top: 48px;
+  }
+  .socialbtn{
+    font-family: 'General Sans Semibold';
+    padding: 12px 20px;
+    display: inline-flex;
+    align-items:  center;
+    height: 48px;
+    color:#ffffff;
+    background-color: #222222;
+    margin-right: 24px;
+    border-style: hidden;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  .btn-link,.btn-link:active,.btn-link:visited{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  @supports (mask-image: paint(smooth-corners)) {
+    .socialbtn.is-loaded {
+      border-radius: 0;
+      mask-image: paint(smooth-corners);
+      --smooth-corners: 10;
+    }
+  }
+  @keyframes slideUp {
+    0%{
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(75%);
+      opacity: 0;
+    }
+     
+    60%{
+      transform: translateY(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    
+    }
+  }
+  @media only screen and (max-width: 800px) {
+  
+    .totalwrap{
+      margin-left:  10% ;
+      margin-right: 10%;
+    }
+  }/*
+    #sparkle{
+      position: absolute;
+      left:-20%;
+      top:-18%;
+      width: 40%;
+      height: 40%;
+    }
+    #star{
+      position: absolute;
+      right: -6%;
+      bottom:61%;
+      width: 40%;
+      height: 40%;
+    }
+    #arrow{
+      position: absolute;
+      right: 75%;
+      bottom:61%;
+      width: 40%;
+      height: 40%;
+    }
+    .profile:hover #sparkle{
+      left:-30%;
+      top:-18%;
+    }
+    .profile:hover #star{
+      right: -6%;
+      bottom:60%;
+    }
+    .profile:hover  #arrow{
+      position: absolute;
+      right: 85%;
+      bottom:62%;
+    }
+  }*/
+  @media only screen and (max-width: 600px) {
+    .totalwrap{
+      flex-wrap: wrap;
+      margin:12%;
+    }
+    .IntroWrapper{
+      min-width: 100%;
+      max-width: 100%;
+      order: 1;
+    }
+    .namediv{
+      font-size: 32px;
+      line-height: 38px;
+    }
+    #linebr{
+      display: none;
+    }
+    .Introdiv{
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .profile{
+      min-width: 62%;
+      margin-bottom:65px ;
+    }
+    #siva-profile{
+      min-width: 100%;
+    }
+    .profile:hover #siva-profile{
+      filter: gray;
+      -webkit-filter: grayscale(1);
+    }
+    #sparkle{
+      position: absolute;
+      left:-18%;
+      top:-6%;
+      width: 40%;
+      height: 30%;
+    }
+    #star{
+      position: absolute;
+      right: -8%;
+      bottom:-8%;
+      width: 40%;
+      height: 30%;
+    }
+    #arrow{
+      position: absolute;
+      right: 75%;
+      bottom:-8%;
+      width: 40%;
+      height: 30%;
+    }
+    .profile:hover #sparkle{
+      position: absolute;
+      left:-18%;
+      top:-6%;
+      width: 40%;
+      height: 30%;
+    }
+    .profile:hover #star{
+      position: absolute;
+      right: -8%;
+      bottom:-8%;
+      width: 40%;
+      height: 30%;
+    }
+    .profile:hover  #arrow{
+      position: absolute;
+      right: 75%;
+      bottom:-8%;
+      width: 40%;
+      height: 30%;
+    }
+    .buttonwrap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .socialbtn{
+     margin-right:8%;
+     width: 95%;
+     height: 48px;
+     display: flex;
+      justify-content: center;
+    }
+    
+    
+    
+  }

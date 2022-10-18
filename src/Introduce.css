@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FEFBF6;
+    max-width: fit-content;
+}
+.topcontainer{
+    margin-top:200px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.namediv{
+    color: #777777;
+    font-size: 32px;
+    font-family: 'General Sans Regular';
+    font-style: normal;
+    line-height: 38px;
+    margin-bottom: 8px;
+}
+.nameinbold{
+    color: #222222;
+    font-family: 'General Sans Semibold';
+
+}
+.nameinsbold{
+    color: #222222;
+    font-family: 'General Sans Medium';
+}
+.generalintro{
+    font-family: 'General Sans Regular';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #777777;
+    margin-top: 24px;
+}
+
+.brand{
+    color:#4F8CEE;
+    text-decoration: underline #4F8CEE;
+}
+a .brand:active,:visited{
+    color:#4F8CEE;
+    text-decoration: underline #4F8CEE;
+}
+
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
+  }
+  
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }  
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) } 
+    100% { transform: rotate( 0.0deg) }
+}
+
+  
