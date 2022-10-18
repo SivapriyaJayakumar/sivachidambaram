@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sivachidambaram/static/css/main.3c51f677.css",
+    "main.js": "/sivachidambaram/static/js/main.7bd1c76e.js",
+    "static/js/787.4cd5b19c.chunk.js": "/sivachidambaram/static/js/787.4cd5b19c.chunk.js",
+    "static/media/Image.png": "/sivachidambaram/static/media/Image.e27ed7712f08672a9099.png",
+    "static/media/GeneralSans-Semibold.woff": "/sivachidambaram/static/media/GeneralSans-Semibold.f7917c077957122793f6.woff",
+    "static/media/GeneralSans-Regular.woff": "/sivachidambaram/static/media/GeneralSans-Regular.c8cfd56b3d5c42904672.woff",
+    "static/media/GeneralSans-Medium.woff": "/sivachidambaram/static/media/GeneralSans-Medium.9ff9c3429a09b987bdec.woff",
+    "index.html": "/sivachidambaram/index.html",
+    "main.3c51f677.css.map": "/sivachidambaram/static/css/main.3c51f677.css.map",
+    "main.7bd1c76e.js.map": "/sivachidambaram/static/js/main.7bd1c76e.js.map",
+    "787.4cd5b19c.chunk.js.map": "/sivachidambaram/static/js/787.4cd5b19c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c51f677.css",
+    "static/js/main.7bd1c76e.js"
+  ]
+}
