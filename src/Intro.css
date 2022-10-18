@@ -10,6 +10,8 @@ body{
     flex-wrap: nowrap;
     margin-top: 120px;
     margin-bottom:160px;
+    margin-left: 10%;
+    margin-right: 10%;
     animation: slideUp 1s ease-out;
   }
   .namediv{
